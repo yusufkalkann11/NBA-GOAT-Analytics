@@ -1,1 +1,63 @@
-🏀 GOAT Analytics: Jordan vs. LeBronEnd-to-End Data Science & Statistical AnalysisBu proje; NBA tarihinin en büyük tartışması olan "GOAT" (Tüm Zamanların En İyisi) konusunu sübjektif yorumlardan arındırarak; veri kazıma, ileri istatistiksel testler ve makine öğrenmesi yöntemleriyle bilimsel bir zemine oturtur.📊 Proje ÖzetiProje, iki temel tezi matematiksel olarak yarıştırmaktadır:Michael Jordan: "Peak Dominance" (Zirve Baskınlığı)LeBron James: "Longevity & Consistency" (Sürdürülebilirlik ve İstikrar)🛠️ Kullanılan TeknolojilerVeri Kazıma: Pandas (read_html) ile Basketball-Reference üzerinden canlı veri çekimi.Veri Manipülasyonu: NumPy ve Pandas.Görselleştirme: Matplotlib ve Seaborn.İstatistik: SciPy (T-test, P-value) ve Varyasyon Katsayısı ($CV$) analizi.Makine Öğrenmesi: Scikit-learn (Linear Regression) ile kariyer sonu projeksiyonu.🔬 Temel Bulgular ve Metodoloji1️⃣ İstatistiksel Dağılım ve VaryansYapılan analiz sonucunda oyuncuların karakteristik profilleri şu şekilde kanıtlanmıştır:LeBron James ($CV$: %9.40): Çok düşük varyans. Tam bir "İstatistiksel Makine".Michael Jordan ($CV$: %56.05): Çok yüksek varyans. "Yüksek Etkili Zirve Oyuncusu".2️⃣ Hipotez Testi (Independent T-Test)H0: İki oyuncunun sayı ortalamaları arasında anlamlı bir fark yoktur.Sonuç: $P = 0.26$ ($P > 0.05$).Yorum: Jordan'ın ham sayı ortalaması yüksek olsa da, verideki yüksek varyans (dalgalanma) nedeniyle bu fark istatistiksel olarak "mutlak bir üstünlük" olarak tanımlanamamıştır.3️⃣ Başarı Yoğunluğu (Achievement Density)Radar Chart analizi sonucunda, sezon başına düşen Şampiyonluk, MVP ve Sayı Krallığı oranlarında Jordan'ın LeBron'u her noktada domine ettiği görülmüştür.4️⃣ Makine Öğrenmesi ProjeksiyonuLineer Regresyon modeli ile LeBron James'in 45 yaşına kadar olan performansı simüle edilmiştir:Tahmin: LeBron 45 yaşında hala 24.8 sayı ortalaması ile oynayabilir.Matematiksel Gerçek: LeBron'un Jordan'ın "Başarı Yoğunluğu" oranını yakalaması için önümüzdeki 5 yılda 7.2 şampiyonluk kazanması gerekmektedir. Bu istatistiksel olarak imkansızdır.📈 Görselleştirme AnalizleriProje kapsamında aşağıdaki kritik grafikler oluşturulmuştur:The Clutch Factor: Normal Sezon vs. Playoff Sayı Artışları.Two-Way Dominance: PTS vs. Stocks (Savunma Etkisi).Regresyon Modeli: Yaşlanma Eğrisi ve Skor Tahmini.💡 Nihai Analist KararıVeri bilimi perspektifinden bakıldığında:LeBron James: Tarihin en iyi "kariyerine" ve istikrarına sahiptir.Michael Jordan: Tarihin en yüksek "oyun seviyesine ve başarı yoğunluğuna" sahiptir.Sonuç: İstatistiksel yoğunluk ve zirve baskınlığı verileri ışığında; GOAT (Tüm Zamanların En İyisi) Michael Jordan'dır.
+# 🏀 GOAT Analytics: Jordan vs. LeBron
+### *End-to-End Data Science & Statistical Analysis*
+
+Bu proje; NBA tarihinin en büyük tartışması olan **"GOAT"** (Tüm Zamanların En İyisi) konusunu sübjektif yorumlardan arındırarak; veri kazıma, ileri istatistiksel testler ve makine öğrenmesi yöntemleriyle bilimsel bir zemine oturtur.
+
+---
+
+## 📊 Proje Özeti
+
+Proje, iki temel tezi matematiksel olarak yarıştırmaktadır:
+* **Michael Jordan:** "Peak Dominance" (Zirve Baskınlığı)
+* **LeBron James:** "Longevity & Consistency" (Sürdürülebilirlik ve İstikrar)
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+* **Veri Kazıma:** `Pandas (read_html)` ile Basketball-Reference üzerinden canlı veri çekimi.
+* **Veri Manipülasyonu:** `NumPy` ve `Pandas`.
+* **Görselleştirme:** `Matplotlib` ve `Seaborn`.
+* **İstatistik:** `SciPy (T-test, P-value)` ve Varyasyon Katsayısı ($CV$) analizi.
+* **Makine Öğrenmesi:** `Scikit-learn (Linear Regression)` ile kariyer sonu projeksiyonu.
+
+---
+
+## 🔬 Temel Bulgular ve Metodoloji
+
+### 1️⃣ İstatistiksel Dağılım ve Varyans
+Yapılan analiz sonucunda oyuncuların karakteristik profilleri şu şekilde kanıtlanmıştır:
+* **LeBron James ($CV$: %9.40):** Çok düşük varyans. Tam bir "İstatistiksel Makine".
+* **Michael Jordan ($CV$: %56.05):** Çok yüksek varyans. "Yüksek Etkili Zirve Oyuncusu".
+
+### 2️⃣ Hipotez Testi (Independent T-Test)
+* **H0:** İki oyuncunun sayı ortalamaları arasında anlamlı bir fark yoktur.
+* **Sonuç:** $P = 0.26$ ($P > 0.05$). 
+* **Yorum:** Jordan'ın ham sayı ortalaması yüksek olsa da, verideki yüksek varyans (dalgalanma) nedeniyle bu fark istatistiksel olarak **"mutlak bir üstünlük"** olarak tanımlanamamıştır.
+
+### 3️⃣ Başarı Yoğunluğu (Achievement Density)
+Radar Chart analizi sonucunda, **sezon başına düşen** Şampiyonluk, MVP ve Sayı Krallığı oranlarında Jordan'ın LeBron'u her noktada domine ettiği görülmüştür.
+
+### 4️⃣ Makine Öğrenmesi Projeksiyonu
+Lineer Regresyon modeli ile LeBron James'in 45 yaşına kadar olan performansı simüle edilmiştir:
+* **Tahmin:** LeBron 45 yaşında hala **24.8** sayı ortalaması ile oynayabilir.
+* **Matematiksel Gerçek:** LeBron'un Jordan'ın "Başarı Yoğunluğu" oranını yakalaması için önümüzdeki 5 yılda **7.2 şampiyonluk** kazanması gerekmektedir. Bu istatistiksel olarak imkansızdır.
+
+---
+
+## 📈 Görselleştirme Analizleri
+
+Proje kapsamında aşağıdaki kritik grafikler oluşturulmuştur:
+1. **The Clutch Factor:** Normal Sezon vs. Playoff Sayı Artışları.
+2. **Two-Way Dominance:** PTS vs. Stocks (Savunma Etkisi).
+3. **Regresyon Modeli:** Yaşlanma Eğrisi ve Skor Tahmini.
+
+---
+
+## 💡 Nihai Kararım
+
+Veri bilimi perspektifinden bakıldığında:
+* **LeBron James:** Tarihin en iyi "kariyerine" ve istikrarına sahiptir.
+* **Michael Jordan:** Tarihin en yüksek "oyun seviyesine ve başarı yoğunluğuna" sahiptir.
+
+> **Sonuç:** İstatistiksel yoğunluk ve zirve baskınlığı verileri ışığında; **GOAT (Tüm Zamanların En İyisi) Michael Jordan'dır.**
